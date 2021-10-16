@@ -60,7 +60,7 @@ namespace snake
         {
             Follow();
             Location[0].X++;
-            if (Location[0].Y > 27)
+            if (Location[0].X > 27)
             {
                 Location[0].X -= 28;
             }
@@ -70,9 +70,9 @@ namespace snake
         {
             Follow();
             Location[0].X--;
-            if (Location[0].Y < 0)
+            if (Location[0].X < 0)
             {
-                Location[0].Y += 27;
+                Location[0].X += 27;
             }
         }
 
