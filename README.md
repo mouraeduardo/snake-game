@@ -1,11 +1,10 @@
 <h1> Snake-game</h1>
-<p align="center">
-  <a href="#Descricao">Descricao</a> |
-  <a href="#Metodologia">Metodologia</a> |
-  <a href="#Imagens">Imagens</a>
-</p>
 
 # Descricao
-Famoso jogo da cobrinha feito em C # e Windons Forms, com auxilio da ferramenta Drawing
+Famoso jogo da cobrinha feito em C # e Windons Forms, com auxilio da ferramenta Drawing.
 # Imagens
-<img src"">
+<h1 align="center">
+  <img alt="imagem 1" src="./snake/Readme/print-1.png" height="320" width="300">
+  <img alt="imagem 1" src="./snake/Readme/print-2.png" height="320" width="300">
+  <img alt="imagem 1" src="./snake/Readme/print-3.png" height="320" width="300">
+</h1>
