@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace snake
@@ -89,8 +86,15 @@ namespace snake
                 }
                 else
                 {
-                    bitmapGraph.FillEllipse(new SolidBrush(Color.Red), (Snake.Location[i].X * 15), (Snake.Location[i].Y * 15), 15, 15);
-                }
+                    if (gameOver == true)
+                    {
+
+                    }
+                    else
+                    {
+                        bitmapGraph.FillEllipse(new SolidBrush(Color.Red), (Snake.Location[i].X * 15), (Snake.Location[i].Y * 15), 15, 15);
+                    }
+                    }
 
                 if ((Snake.Location[i] == Snake.Location[0]) && (i > 0))
                 {
